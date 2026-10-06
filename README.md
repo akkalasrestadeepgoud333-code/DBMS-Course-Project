@@ -178,9 +178,9 @@ courier/
 ## 9. Project documents
 | File | Contents |
 |---|---|
-| [`docs/SwiftCourier_DBMS_PBL_Report.pdf`](docs/SwiftCourier_DBMS_PBL_Report.pdf) | Project report (Woxsen PBL format) |
-| [`docs/SwiftCourier_DBMS_Presentation.pptx`](docs/SwiftCourier_DBMS_Presentation.pptx) | Presentation slides |
-| [`docs/screenshots/`](docs/screenshots/) | Screenshots of the running application |
+| [`report/SwiftCourier_DBMS_PBL_Report.pdf`](report/SwiftCourier_DBMS_PBL_Report.pdf) | Project report (Woxsen PBL format) |
+| [`presentation/SwiftCourier_DBMS_Presentation.pptx`](presentation/SwiftCourier_DBMS_Presentation.pptx) | Presentation slides |
+| [`screenshots/`](screenshots/) | Screenshots of the running application |
 | [`database/er_diagram.png`](database/er_diagram.png) | ER diagram (Chen notation) |
 
 **Team:** A Srestadeep (25WU0101001), Abhigyan Gogoi (25WU0101004), Jogi Dhanush (25WU0101053)
