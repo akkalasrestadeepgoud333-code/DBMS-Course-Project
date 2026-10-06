@@ -1,5 +1,25 @@
 # SwiftCourier: Courier Parcel Booking and Tracking Management System
 
+**One-line description:** A PHP + MySQL web application that lets customers book courier parcels, gives each parcel a unique tracking ID and QR code, and lets staff and the public track every step of its journey from a normalised MySQL database.
+
+| Member | Roll number |
+|---|---|
+| A Srestadeep | 25WU0101001 |
+| Abhigyan Gogoi | 25WU0101004 |
+| Jogi Dhanush | 25WU0101053 |
+
+**Course:** Database Management System (25TU03MJM0) · Woxsen University · Guide: Dr. Kiran Mayee Adavala
+
+## Repository structure
+| Folder / file | Contents |
+|---|---|
+| [`Presentation/`](Presentation/) | Presentation (PPTX and PDF), ER diagram image, SQL files, UI source code (zip) and screenshots of every UI screen |
+| [`Project-Report/`](Project-Report/) | Project report (PDF) |
+| `admin/`, `includes/`, `config/`, `assets/`, `*.php` | Application source code (runs on XAMPP) |
+| [`database/`](database/) | `courier_management.sql` (database + sample data) and `demo_queries.sql` |
+
+---
+
 This is a DBMS project built with **PHP + MySQL + HTML/CSS + vanilla JavaScript** and Bootstrap 5 from a CDN. Everything it shows is live data from MySQL:
 
 - Registration and login create and check real rows.
@@ -178,10 +198,13 @@ courier/
 ## 9. Project documents
 | File | Contents |
 |---|---|
-| [`report/SwiftCourier_DBMS_PBL_Report.pdf`](report/SwiftCourier_DBMS_PBL_Report.pdf) | Project report (Woxsen PBL format) |
-| [`presentation/SwiftCourier_DBMS_Presentation.pptx`](presentation/SwiftCourier_DBMS_Presentation.pptx) | Presentation slides |
-| [`screenshots/`](screenshots/) | Screenshots of the running application |
-| [`database/er_diagram.png`](database/er_diagram.png) | ER diagram (Chen notation) |
-
-**Team:** A Srestadeep (25WU0101001), Abhigyan Gogoi (25WU0101004), Jogi Dhanush (25WU0101053)
-**Course:** Database Management System (25TU03MJM0), Woxsen University, guided by Dr. Kiran Mayee Adavala
+| [`Project-Report/SwiftCourier_DBMS_PBL_Report.pdf`](Project-Report/SwiftCourier_DBMS_PBL_Report.pdf) | Project report (PDF) |
+| [`Presentation/SwiftCourier_DBMS_Presentation.pptx`](Presentation/SwiftCourier_DBMS_Presentation.pptx) | Presentation slides (PPTX) |
+| [`Presentation/SwiftCourier_DBMS_Presentation.pdf`](Presentation/SwiftCourier_DBMS_Presentation.pdf) | Presentation slides (PDF) |
+| [`Presentation/ER_Diagram.png`](Presentation/ER_Diagram.png) | ER diagram (Chen notation) |
+| [`Presentation/courier_management.sql`](Presentation/courier_management.sql) | All SQL commands: database, tables, constraints, view and sample data |
+| [`Presentation/demo_queries.sql`](Presentation/demo_queries.sql) | SELECT, JOIN and aggregate queries for the live demo |
+| [`Presentation/UI_Source_Code.zip`](Presentation/UI_Source_Code.zip) | UI source code |
+| [`Presentation/Screenshots/Insert/`](Presentation/Screenshots/Insert/) | Insert screens, with the database before and after |
+| [`Presentation/Screenshots/Delete/`](Presentation/Screenshots/Delete/) | Delete screens, with the database before and after |
+| [`Presentation/Screenshots/View/`](Presentation/Screenshots/View/) | View screens (home, dashboards, parcel lists, tracking, QR) |
