@@ -174,3 +174,14 @@ courier/
 | Phone can't open the QR link | Use the same Wi-Fi, allow Apache through the firewall, and set `QR_BASE_URL` to your IPv4 address. |
 | Page has no styling | Bootstrap and the icons load from a CDN, so the laptop and phone need internet access. |
 | Apache won't start (port 80 busy) | Close Skype/IIS, or change Apache's port and include it in `QR_BASE_URL` (e.g. `http://192.168.1.10:8080/courier`). |
+
+## 9. Project documents
+| File | Contents |
+|---|---|
+| [`docs/SwiftCourier_DBMS_PBL_Report.pdf`](docs/SwiftCourier_DBMS_PBL_Report.pdf) | Project report (Woxsen PBL format) |
+| [`docs/SwiftCourier_DBMS_Presentation.pptx`](docs/SwiftCourier_DBMS_Presentation.pptx) | Presentation slides |
+| [`docs/screenshots/`](docs/screenshots/) | Screenshots of the running application |
+| [`database/er_diagram.png`](database/er_diagram.png) | ER diagram (Chen notation) |
+
+**Team:** A Srestadeep (25WU0101001), Abhigyan Gogoi (25WU0101004), Jogi Dhanush (25WU0101053)
+**Course:** Database Management System (25TU03MJM0), Woxsen University, guided by Dr. Kiran Mayee Adavala
